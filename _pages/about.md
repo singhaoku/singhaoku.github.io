@@ -30,8 +30,6 @@ I am an applied economist (M.A., NYU 2026) working at the intersection of health
 
 I use quantitative methods to study whether public programs actually work — as Nobel laureate Alvin Roth put it, "who gets what, and why." My work draws on large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying econometric and applied statistical methods including causal inference, survey analysis, and machine learning. I am proficient in R and Stata, with working knowledge of Python and SQL.
 
-I grew up in Taiwan with a speech impediment, navigating a healthcare system that shaped how I think about access and inequality. That experience sent me to New York for graduate school, and somewhere along the way I also fell in love with Broadway (19 shows and counting).
-
-Off the clock, you will find me watching Real Madrid, tennis, or baseball, or buried in a novel or a film — I love stories, and I think the best data questions come from the same place as the best stories: where sense meets sensibility in the real world's conundrums.
-
 I am currently open to research, think tank, survey research, and data analyst opportunities. Feel free to reach out.
+
+You can find my work under [Research](/research/) and my full background under [CV](/cv/) — or, for a few things about me beyond the data, see [Personal](/personal/).
