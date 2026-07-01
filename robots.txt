@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://singhaoku.github.io/sitemap.xml
