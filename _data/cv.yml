@@ -1,0 +1,139 @@
+cv:
+  name: Sing-Hao Ku
+  label: Applied Economist
+  email: sk11234@nyu.edu
+  location: Jersey City, NJ
+  image: ""
+  summary: Applied economist (M.A., NYU 2026) working on health economics, economic demography, and social policy. Research focuses on how public programs shape financial security for vulnerable populations and how institutional barriers translate into disparities in outcomes.
+
+  social_networks:
+    - network: LinkedIn
+      username: sing-hao-ku
+    - network: GitHub
+      username: singhaoku
+
+  address:
+    street: ""
+    city: Jersey City
+    region: New Jersey
+    postalCode: ""
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: New York University (NYU)
+        location: New York, NY
+        area: Economics
+        studyType: M.A.
+        start_date: 2024-09
+        end_date: 2026-05
+        score: "GPA 3.81/4.00"
+        courses: "Concentration: Econometrics and Quantitative Economics"
+        highlights:
+          - "Relevant coursework: Applied Statistics and Econometrics, Machine Learning for Economics, Rationality and Behavioral Economics, Empirical Research Methods, Messy Data and Machine Learning"
+
+      - institution: National Taiwan University (NTU)
+        location: Taipei, Taiwan
+        area: International Business, Minor in Economics
+        studyType: B.B.A.
+        start_date: 2019-09
+        end_date: 2023-06
+        score: "GPA 3.75/4.30 (3.65/4.00)"
+
+    Experience:
+      - company: NYU Silver School of Social Work
+        position: Research Assistant to Prof. Wen-Jui Han
+        location: New York, NY
+        start_date: 2025-06
+        end_date: 2026-05
+        summary: Research on how parental employment affects adolescent cognitive development and risk-taking behaviors.
+        highlights:
+          - "Developed a reproducible data-cleaning workflow in Stata for the National Longitudinal Survey of Youth 1979 (NLSY79) and its Children Supplement, cleaning ~11,000 records across 15 waves and constructing 50+ derived variables; implemented multiple imputation across waves."
+          - "Implemented sequence cluster analysis to identify maternal employment trajectory patterns, then applied growth-curve modeling and stage-specific regression analysis."
+
+      - company: CUNY Graduate School of Public Health
+        position: Research Assistant to Prof. Mustafa Hussein
+        location: New York, NY
+        start_date: 2025-06
+        end_date: 2026-05
+        summary: Research on the impact of healthcare policy changes on insurance coverage and out-of-pocket premium payments.
+        highlights:
+          - "Built an end-to-end Stata pipeline integrating 21 years of MEPS Full-Year Consolidated, Jobs, and Person-Round files into a person-month panel of 301,000 individuals."
+          - "Conducted imputation and data wrangling to support causal-inference analyses of healthcare policy and labor outcomes."
+
+      - company: Quanthon Corporation
+        position: Research Assistant (Full-time)
+        location: Taipei, Taiwan
+        start_date: 2023-07
+        end_date: 2024-07
+        summary: Think tank and data-science research consultancy providing policy analysis and business intelligence.
+        highlights:
+          - "Analyzed government and consumer survey data in Stata to evaluate policy initiatives and produce executive-level visualizations and reports."
+          - "Designed survey instruments in Qualtrics; assisted with a methodology paper on Random Forest imputation for structural changes in longitudinal survey design, presented at an AAPOR-affiliated venue."
+
+    Publications:
+      - title: "Coverage Substitution After Job Loss: How the ACA Altered Post-Displacement Insurance Trajectories"
+        authors:
+          - Sing-Hao Ku
+        publisher: M.A. Thesis, New York University (Advisor: Prof. Gustavo Pereira) — Highest Distinction in Cohort
+        releaseDate: 2026-05
+        url: /assets/pdf/Ku_Coverage_Substitution_ACA.pdf
+        summary: Propensity-score-matched event-study difference-in-differences on a person-month panel of 5.9 million observations (MEPS 2004-2018), with a two-part hurdle decomposition of premium burden and latent class analysis of pre-displacement job profiles. Found the ACA absorbed roughly one-quarter of the two-month coverage loss and one-third of the four-month loss, with gains concentrated in a high-coverage Finance and Professional class.
+
+    Projects:
+      - name: Determinants of Household Debt Across OECD Economies
+        summary: "Messy Data and Machine Learning\" final project (Technical Lead). Applied Random Forest, LASSO, and multinomial logistic regression; Random Forest outperformed multinomial logistic regression (90.5% vs. 76.9% accuracy), identifying credit market accessibility and income inequality as dominant predictors of household debt levels."
+        start_date: 2025-09
+        end_date: 2025-12
+
+      - name: "Medicaid Expansion and Out-of-Pocket Costs: A Double Machine Learning Approach"
+        summary: "\"Machine Learning for Economics\" term paper. Applied a PLIV estimator in R using DML (Random Forest, LASSO, XGBoost with cross-fitting) to estimate the causal effect of Medicaid expansion on medical out-of-pocket spending."
+        start_date: 2025-02
+        end_date: 2025-05
+
+      - name: Assessing the Financial and Coverage Effects of Medicaid Expansion
+        summary: "\"Applied Statistics and Econometrics\" final project (Group Project Lead, Technical). Led all coding, data cleaning, and empirical strategy; estimated survey-weighted DiD and event-study models on CPS ASEC microdata; combined SUR models to test joint significance across coverage, financial protection, and health outcomes."
+        start_date: 2025-02
+        end_date: 2025-05
+
+      - name: LLM-Based Author Disambiguation on Eugenics-Movement Literature
+        summary: "\"Empirical Research Methods\" project. Cleaned and standardized large-scale bibliometric records on the eugenics movement (1880-1945); built an R pipeline calling the Gemini API to disambiguate author and source records at scale."
+        start_date: 2025-09
+        end_date: 2025-12
+
+    Skills:
+      - name: R
+        level: Proficient
+        icon: fa-solid fa-code
+        keywords: "Data Wrangling, Machine Learning, API Interaction, Imputation, Visualization, Statistical & Econometric Modeling"
+
+      - name: Stata
+        level: Proficient
+        icon: fa-solid fa-chart-line
+        keywords: "Data Wrangling, Imputation, Visualization, Statistical & Econometric Modeling"
+
+      - name: Python & SQL
+        level: Working Knowledge
+        icon: fa-solid fa-database
+        keywords: "Data Wrangling, Web-scraping, Data Querying"
+
+      - name: Other Tools
+        level: Working Knowledge
+        icon: fa-solid fa-toolbox
+        keywords: "Tableau (Visualization), Qualtrics (Survey Design), LaTeX (Formatting)"
+
+    Languages:
+      - name: English
+        summary: "Full Professional Proficiency"
+
+      - name: Mandarin Chinese
+        summary: "Native"
+
+    Interests:
+      - name: Research Interests
+        icon: fa-solid fa-magnifying-glass
+        keywords: "Health Economics, Population Studies, Applied Econometrics, Labor and Social Policy"
+
+      - name: Public Datasets
+        icon: fa-solid fa-table
+        keywords: "NLSY, MEPS, NSFG, IPUMS (CPS, ATUS)"

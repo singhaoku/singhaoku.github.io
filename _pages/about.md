@@ -1,0 +1,37 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: M.A. in Economics, New York University · New York, NY
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Health Economics · Population Studies</p>
+    <p>Applied Econometrics · Social Policy</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
+
+I am an applied economist (M.A., NYU 2026) working at the intersection of health economics, economic demography, and social policy. Two questions drive my research: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities in outcomes.
+
+I use quantitative methods to study whether public programs actually work — as Nobel laureate Alvin Roth put it, "who gets what, and why." My work draws on large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying econometric and applied statistical methods including causal inference, survey analysis, and machine learning. I am proficient in R and Stata, with working knowledge of Python and SQL.
+
+I grew up in Taiwan with a speech impediment, navigating a healthcare system that shaped how I think about access and inequality. That experience sent me to New York for graduate school, and somewhere along the way I also fell in love with Broadway (19 shows and counting).
+
+Off the clock, you will find me watching Real Madrid, tennis, or baseball, or buried in a novel or a film — I love stories, and I think the best data questions come from the same place as the best stories: where sense meets sensibility in the real world's conundrums.
+
+I am currently open to research, think tank, survey research, and data analyst opportunities. Feel free to reach out.
