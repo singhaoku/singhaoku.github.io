@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LLM-Based Author Disambiguation on Eugenics-Movement Literature
-description: "Empirical Research Methods" project
+description: Empirical Research Methods project
 importance: 5
 category: research
 ---

@@ -75,7 +75,7 @@ cv:
       - title: "Coverage Substitution After Job Loss: How the ACA Altered Post-Displacement Insurance Trajectories"
         authors:
           - Sing-Hao Ku
-        publisher: M.A. Thesis, New York University (Advisor: Prof. Gustavo Pereira) — Highest Distinction in Cohort
+        publisher: "M.A. Thesis, New York University (Advisor: Prof. Gustavo Pereira) — Highest Distinction in Cohort"
         releaseDate: 2026-05
         url: /assets/pdf/Ku_Coverage_Substitution_ACA.pdf
         summary: Propensity-score-matched event-study difference-in-differences on a person-month panel of 5.9 million observations (MEPS 2004-2018), with a two-part hurdle decomposition of premium burden and latent class analysis of pre-displacement job profiles. Found the ACA absorbed roughly one-quarter of the two-month coverage loss and one-third of the four-month loss, with gains concentrated in a high-coverage Finance and Professional class.

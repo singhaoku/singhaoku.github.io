@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Determinants of Household Debt Across OECD Economies
-description: "Messy Data and Machine Learning" final project (Technical Lead)
+description: Messy Data and Machine Learning final project (Technical Lead)
 importance: 4
 category: research
 ---

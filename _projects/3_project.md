@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assessing the Financial and Coverage Effects of Medicaid Expansion
-description: "Applied Statistics and Econometrics" final project (Group Project Lead, Technical)
+description: Applied Statistics and Econometrics final project (Group Project Lead, Technical)
 importance: 3
 category: research
 ---
