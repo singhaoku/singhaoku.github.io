@@ -1,0 +1,142 @@
+---
+layout: default
+---
+<style>
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(180px, 260px) 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+  @media (max-width: 576px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .about-left {
+    text-align: center;
+  }
+  .about-left img {
+    width: 100%;
+    max-width: 220px;
+  }
+  .about-name {
+    margin-top: 1rem;
+    margin-bottom: 0.15rem;
+    font-size: 1.4rem;
+  }
+  .about-subtitle {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+  }
+  .about-chess-accent {
+    width: 64px;
+    height: 12px;
+    margin: 0.75rem auto 1rem;
+    background-image: repeating-conic-gradient(
+      var(--global-theme-color) 0% 25%,
+      var(--global-highlight-color) 0% 50%
+    );
+    background-size: 12px 12px;
+    opacity: 0.8;
+    border-radius: 2px;
+  }
+  .about-left .social {
+    margin-top: 0.5rem;
+  }
+  .about-left .contact-icons {
+    justify-content: center;
+  }
+  .about-right .about-me-heading {
+    margin-top: 0;
+  }
+  .about-tagline {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+    border-left: 3px solid var(--global-theme-color);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+  }
+</style>
+
+<div class="post">
+  <article>
+    <div class="about-grid">
+      <div class="about-left">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
+        {% endif %}
+
+        <h1 class="about-name">
+          {% if site.title == 'blank' %}
+            {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        <p class="about-subtitle">{{ page.subtitle }}</p>
+        <div class="about-chess-accent"></div>
+
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% social_links %}</div>
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="about-right">
+        <h2 class="about-me-heading">About me</h2>
+        {% if page.tagline %}
+          <p class="about-tagline">{{ page.tagline }}</p>
+        {% endif %}
+        <div class="about-bio">{{ content }}</div>
+      </div>
+    </div>
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/research/' | relative_url }}" style="color: inherit">selected working papers</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+</div>

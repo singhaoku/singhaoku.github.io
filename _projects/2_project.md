@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Medicaid Expansion and Out-of-Pocket Costs
-description: A double machine learning approach — "Machine Learning for Economics" term paper
+title: Determinants of Household Debt Across OECD Economies
+description: Messy Data and Machine Learning final project (Technical Lead)
 importance: 2
 category: research
-related_publications: true
 ---
 
-Applied a partially linear instrumental variables (PLIV) estimator in R using double machine learning (Random Forest, LASSO, XGBoost with cross-fitting) to estimate the causal effect of Medicaid expansion on medical out-of-pocket spending.
+Group project ("Messy Data and Machine Learning," Technical Lead). Used Random Forest classification on 378 country-year observations across 18 OECD countries (2000-2020) to identify which institutional factors best predict low/medium/high household debt. Credit market liberalization dominated as a predictor (65% more important than welfare generosity); Random Forest outperformed multinomial logistic regression (90.5% vs. 76.9% accuracy).
 
-{% cite ku2025medicaid %}
+[Full paper](/assets/pdf/Ku_Household_Debt_OECD_Group.pdf)

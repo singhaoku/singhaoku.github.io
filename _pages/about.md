@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Health Economics · Population Studies</p>
-    <p>Applied Econometrics · Social Policy</p>
+
+tagline: >
+  A data analyst and applied scholar specializing in applied econometrics, causal inference, and survey analysis — with a research focus on health economics and social policy, and open to quantitative marketing and behavioral science roles.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,8 +28,8 @@ latest_posts:
 
 I am an applied economist (M.A., NYU 2026) working at the intersection of health economics, economic demography, and social policy. Two questions drive my research: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities in outcomes.
 
-I use quantitative methods to study whether public programs actually work — as Nobel laureate Alvin Roth put it, "who gets what, and why." My work draws on large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying econometric and applied statistical methods including causal inference, survey analysis, and machine learning. I am proficient in R and Stata, with working knowledge of Python and SQL.
+I use quantitative methods to study whether public programs actually work — as Nobel laureate Alvin Roth put it, "who gets what, and why." My work draws on large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying causal inference, survey methodology, and machine learning. I've also studied behavioral economics and nudge theory in a policy context, which is part of what draws me to quantitative marketing and behavioral science roles alongside traditional research and policy work. I am proficient in R and Stata, with working knowledge of Python and SQL.
 
-I am currently open to research, think tank, survey research, and data analyst opportunities. Feel free to reach out.
+I am currently open to research, think tank, survey research, data analyst, and quantitative marketing opportunities. Feel free to reach out.
 
 You can find my work under [Research](/research/) and my full background under [CV](/cv/) — or, for a few things about me beyond the data, see [Personal](/personal/).

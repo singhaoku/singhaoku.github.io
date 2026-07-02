@@ -2,14 +2,16 @@
 layout: page
 permalink: /research/
 title: research
-description: Publications and selected research projects
+description: Working papers and selected research projects
 nav: true
 nav_order: 2
 display_categories: [research]
 horizontal: false
 ---
 
-<h2>Publications</h2>
+<h2>Working Papers</h2>
+
+<p>Unpublished manuscripts — not peer-reviewed journal publications.</p>
 
 {% include bib_search.liquid %}
 

@@ -1,10 +1,10 @@
 cv:
   name: Sing-Hao Ku
-  label: Applied Economist
+  label: Applied Economist & Data Analyst
   email: sk11234@nyu.edu
   location: Jersey City, NJ
   image: ""
-  summary: Applied economist (M.A., NYU 2026) working on health economics, economic demography, and social policy. Research focuses on how public programs shape financial security for vulnerable populations and how institutional barriers translate into disparities in outcomes.
+  summary: Data analyst and applied scholar specializing in applied econometrics, causal inference, and survey analysis. Research focus on health economics and social policy; also open to quantitative marketing and behavioral science roles.
 
   social_networks:
     - network: LinkedIn
@@ -80,26 +80,37 @@ cv:
         url: /assets/pdf/Ku_Coverage_Substitution_ACA.pdf
         summary: Propensity-score-matched event-study difference-in-differences on a person-month panel of 5.9 million observations (MEPS 2004-2018), with a two-part hurdle decomposition of premium burden and latent class analysis of pre-displacement job profiles. Found the ACA absorbed roughly one-quarter of the two-month coverage loss and one-third of the four-month loss, with gains concentrated in a high-coverage Finance and Professional class.
 
+      - title: "Medicaid Expansion and Out-of-Pocket Costs: Causal Evidence from Double Machine Learning"
+        authors:
+          - Sing-Hao Ku
+        publisher: "Term paper, \"Machine Learning for Economics,\" New York University"
+        releaseDate: 2025-05
+        url: /assets/pdf/Ku_Medicaid_DML.pdf
+        summary: Double/Debiased Machine Learning instrumental-variables estimator (Random Forest, LASSO, XGBoost) to estimate the causal effect of ACA Medicaid expansion on medical out-of-pocket spending, using quasi-experimental variation between expansion and non-expansion states (CPS ASEC, 2011-2017, ~786,000 observations).
+
+      - title: Author Disambiguation in Historical Academic Literature Using Large Language Models
+        authors:
+          - Sing-Hao Ku
+        publisher: "Term paper, \"Empirical Research Methods,\" New York University (Advisor: Prof. Sahar Parsa)"
+        releaseDate: 2025-12
+        url: /assets/pdf/Ku_Author_Disambiguation_LLM.pdf
+        summary: An LLM-based approach to author name disambiguation in historical bibliometric records (Microsoft Academic Graph, 1880-1945), treating disambiguation as a reading-comprehension task rather than pairwise similarity computation. Achieves 97.0% overall accuracy (99.0% on non-patent publications) using only 2 in-context examples, at roughly $0.016 per author.
+
     Projects:
-      - name: Determinants of Household Debt Across OECD Economies
-        summary: "Messy Data and Machine Learning\" final project (Technical Lead). Applied Random Forest, LASSO, and multinomial logistic regression; Random Forest outperformed multinomial logistic regression (90.5% vs. 76.9% accuracy), identifying credit market accessibility and income inequality as dominant predictors of household debt levels."
-        start_date: 2025-09
-        end_date: 2025-12
-
-      - name: "Medicaid Expansion and Out-of-Pocket Costs: A Double Machine Learning Approach"
-        summary: "\"Machine Learning for Economics\" term paper. Applied a PLIV estimator in R using DML (Random Forest, LASSO, XGBoost with cross-fitting) to estimate the causal effect of Medicaid expansion on medical out-of-pocket spending."
-        start_date: 2025-02
-        end_date: 2025-05
-
       - name: Assessing the Financial and Coverage Effects of Medicaid Expansion
-        summary: "\"Applied Statistics and Econometrics\" final project (Group Project Lead, Technical). Led all coding, data cleaning, and empirical strategy; estimated survey-weighted DiD and event-study models on CPS ASEC microdata; combined SUR models to test joint significance across coverage, financial protection, and health outcomes."
+        summary: "\"Applied Statistics and Econometrics\" final project (Group Project Lead, Technical, with Pengzhen Wang and Wenqing Zhang). Led all coding, data cleaning, and empirical strategy; estimated survey-weighted DiD and event-study models on CPS ASEC microdata; combined SUR models to test joint significance across coverage, financial protection, and health outcomes."
         start_date: 2025-02
         end_date: 2025-05
 
-      - name: LLM-Based Author Disambiguation on Eugenics-Movement Literature
-        summary: "\"Empirical Research Methods\" project. Cleaned and standardized large-scale bibliometric records on the eugenics movement (1880-1945); built an R pipeline calling the Gemini API to disambiguate author and source records at scale."
+      - name: Determinants of Household Debt Across OECD Economies
+        summary: "\"Messy Data and Machine Learning\" final project (Technical Lead). Applied Random Forest, LASSO, and multinomial logistic regression; Random Forest outperformed multinomial logistic regression (90.5% vs. 76.9% accuracy), identifying credit market accessibility and income inequality as dominant predictors of household debt levels."
         start_date: 2025-09
         end_date: 2025-12
+
+      - name: "Nudging in Public Policy: A Review of Empirical Studies"
+        summary: "Literature review (Advisor: Dr. Mario Rizzo) evaluating when nudges outperform traditional price instruments (taxes/subsidies), covering List et al. (2023) and Handel (2011) on adverse selection and switching costs in health insurance."
+        start_date: 2025-05
+        end_date: 2025-05
 
     Skills:
       - name: R
@@ -132,7 +143,11 @@ cv:
     Interests:
       - name: Research Interests
         icon: fa-solid fa-magnifying-glass
-        keywords: "Health Economics, Population Studies, Applied Econometrics, Labor and Social Policy"
+        keywords: "Health Economics, Population Studies, Applied Econometrics, Causal Inference, Survey Methodology, Labor and Social Policy"
+
+      - name: Also Open To
+        icon: fa-solid fa-chart-line
+        keywords: "Quantitative Marketing, Behavioral Science"
 
       - name: Public Datasets
         icon: fa-solid fa-table

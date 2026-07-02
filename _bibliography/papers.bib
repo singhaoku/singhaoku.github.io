@@ -16,11 +16,24 @@
 
 @unpublished{ku2025medicaid,
   bibtex_show = {true},
-  title       = {Medicaid Expansion and Out-of-Pocket Costs: A Double Machine Learning Approach},
+  title       = {Medicaid Expansion and Out-of-Pocket Costs: Causal Evidence from Double Machine Learning},
   author      = {Ku, Sing-Hao},
   year        = {2025},
   month       = {5},
   note        = {Term paper, "Machine Learning for Economics," New York University},
-  abstract    = {Applies a partially linear instrumental variables (PLIV) estimator in R using double machine learning (Random Forest, LASSO, XGBoost with cross-fitting) to estimate the causal effect of Medicaid expansion on medical out-of-pocket spending.},
+  abstract    = {Uses a Double/Debiased Machine Learning instrumental-variables estimator (Chernozhukov et al., 2018) with Random Forest, LASSO, and XGBoost to estimate the causal effect of ACA Medicaid expansion on medical out-of-pocket spending, exploiting quasi-experimental variation between expansion and non-expansion states across low- and mid-FPL income subgroups (CPS ASEC, 2011-2017, ~786,000 observations).},
+  pdf         = {Ku_Medicaid_DML.pdf},
+  selected    = {true}
+}
+
+@unpublished{ku2025disambiguation,
+  bibtex_show = {true},
+  title       = {Author Disambiguation in Historical Academic Literature Using Large Language Models},
+  author      = {Ku, Sing-Hao},
+  year        = {2025},
+  month       = {12},
+  note        = {Term paper, "Empirical Research Methods," New York University (Advisor: Prof. Sahar Parsa)},
+  abstract    = {Proposes an LLM-based approach to author name disambiguation in historical bibliometric records (Microsoft Academic Graph, 1880-1945), treating disambiguation as a holistic reading-comprehension task rather than pairwise similarity computation. Using only 2 in-context examples, the system achieves 97.0% overall accuracy and 99.0% accuracy on non-patent publications, requiring a single inference per author block versus O(n^2) pairwise comparisons in traditional methods, at roughly $0.016 per author.},
+  pdf         = {Ku_Author_Disambiguation_LLM.pdf},
   selected    = {true}
 }
