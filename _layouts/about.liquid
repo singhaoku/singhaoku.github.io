@@ -25,23 +25,23 @@ layout: default
     margin-bottom: 0.15rem;
     font-size: 1.4rem;
     font-weight: 800;
-    color: var(--global-text-color);
   }
   .about-subtitle {
-    color: var(--global-text-color);
-    font-weight: 700;
+    color: var(--global-text-color-light);
     font-size: 0.95rem;
     margin-bottom: 0.1rem;
   }
   .about-institution {
-    font-weight: 700;
-    color: var(--global-text-color);
+    font-weight: 600;
     margin-bottom: 0.1rem;
   }
   .about-email {
-    color: var(--global-text-color-light);
     font-size: 0.85rem;
     margin-bottom: 1rem;
+  }
+  .about-email a {
+    color: var(--global-theme-color);
+    text-decoration: underline;
   }
   .about-left .social {
     margin-top: 0.5rem;
@@ -69,7 +69,7 @@ layout: default
   }
   .about-bio strong {
     font-weight: 800;
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
   }
 </style>
 
@@ -100,7 +100,7 @@ layout: default
           <p class="about-subtitle about-institution">{{ page.institution }}</p>
         {% endif %}
         {% if site.data.socials.email %}
-          <p class="about-email">{{ site.data.socials.email }}</p>
+          <p class="about-email"><a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a></p>
         {% endif %}
 
         {% if page.profile.more_info %}
