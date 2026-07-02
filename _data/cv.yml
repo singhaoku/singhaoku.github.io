@@ -13,10 +13,10 @@ cv:
       username: singhaoku
 
   address:
-    street: ""
+    street:
     city: Jersey City
     region: New Jersey
-    postalCode: ""
+    postalCode:
     countryCode: US
 
   sections:
@@ -77,7 +77,6 @@ cv:
           - Sing-Hao Ku
         publisher: "M.A. Thesis, New York University (Advisor: Prof. Gustavo Pereira) — Highest Distinction in Cohort"
         releaseDate: 2026-05
-        url: /assets/pdf/Ku_Coverage_Substitution_ACA.pdf
         summary: Propensity-score-matched event-study difference-in-differences on a person-month panel of 5.9 million observations (MEPS 2004-2018), with a two-part hurdle decomposition of premium burden and latent class analysis of pre-displacement job profiles. Found the ACA absorbed roughly one-quarter of the two-month coverage loss and one-third of the four-month loss, with gains concentrated in a high-coverage Finance and Professional class.
 
       - title: "Medicaid Expansion and Out-of-Pocket Costs: Causal Evidence from Double Machine Learning"
@@ -85,32 +84,14 @@ cv:
           - Sing-Hao Ku
         publisher: "Term paper, \"Machine Learning for Economics,\" New York University"
         releaseDate: 2025-05
-        url: /assets/pdf/Ku_Medicaid_DML.pdf
         summary: Double/Debiased Machine Learning instrumental-variables estimator (Random Forest, LASSO, XGBoost) to estimate the causal effect of ACA Medicaid expansion on medical out-of-pocket spending, using quasi-experimental variation between expansion and non-expansion states (CPS ASEC, 2011-2017, ~786,000 observations).
 
-      - title: Author Disambiguation in Historical Academic Literature Using Large Language Models
+      - title: "Nudging in Public Policy: A Review of Empirical Studies"
         authors:
           - Sing-Hao Ku
-        publisher: "Term paper, \"Empirical Research Methods,\" New York University (Advisor: Prof. Sahar Parsa)"
-        releaseDate: 2025-12
-        url: /assets/pdf/Ku_Author_Disambiguation_LLM.pdf
-        summary: An LLM-based approach to author name disambiguation in historical bibliometric records (Microsoft Academic Graph, 1880-1945), treating disambiguation as a reading-comprehension task rather than pairwise similarity computation. Achieves 97.0% overall accuracy (99.0% on non-patent publications) using only 2 in-context examples, at roughly $0.016 per author.
-
-    Projects:
-      - name: Assessing the Financial and Coverage Effects of Medicaid Expansion
-        summary: "\"Applied Statistics and Econometrics\" final project (Group Project Lead, Technical, with Pengzhen Wang and Wenqing Zhang). Led all coding, data cleaning, and empirical strategy; estimated survey-weighted DiD and event-study models on CPS ASEC microdata; combined SUR models to test joint significance across coverage, financial protection, and health outcomes."
-        start_date: 2025-02
-        end_date: 2025-05
-
-      - name: Determinants of Household Debt Across OECD Economies
-        summary: "\"Messy Data and Machine Learning\" final project (Technical Lead). Applied Random Forest, LASSO, and multinomial logistic regression; Random Forest outperformed multinomial logistic regression (90.5% vs. 76.9% accuracy), identifying credit market accessibility and income inequality as dominant predictors of household debt levels."
-        start_date: 2025-09
-        end_date: 2025-12
-
-      - name: "Nudging in Public Policy: A Review of Empirical Studies"
-        summary: "Literature review (Advisor: Dr. Mario Rizzo) evaluating when nudges outperform traditional price instruments (taxes/subsidies), covering List et al. (2023) and Handel (2011) on adverse selection and switching costs in health insurance."
-        start_date: 2025-05
-        end_date: 2025-05
+        publisher: "Literature review, New York University (Advisor: Dr. Mario Rizzo)"
+        releaseDate: 2025-05
+        summary: Reviews libertarian paternalism and nudge theory, then evaluates List et al. (2023) on nudges vs. taxes/subsidies and Handel (2011) on adverse selection and switching costs in health insurance, concluding with "nudge plus," "budge," and "boost" as extensions to the classic nudge framework.
 
     Skills:
       - name: R

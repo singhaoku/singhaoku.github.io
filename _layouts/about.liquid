@@ -28,25 +28,20 @@ layout: default
   .about-subtitle {
     color: var(--global-text-color-light);
     font-size: 0.95rem;
-    margin-bottom: 0.75rem;
-  }
-  .about-chess-accent {
-    width: 64px;
-    height: 12px;
-    margin: 0.75rem auto 1rem;
-    background-image: repeating-conic-gradient(
-      var(--global-theme-color) 0% 25%,
-      var(--global-highlight-color) 0% 50%
-    );
-    background-size: 12px 12px;
-    opacity: 0.8;
-    border-radius: 2px;
+    margin-bottom: 1rem;
   }
   .about-left .social {
     margin-top: 0.5rem;
   }
   .about-left .contact-icons {
     justify-content: center;
+    font-size: 1.6rem;
+  }
+  .about-left .contact-icons a img,
+  .about-left .contact-icons a svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-bottom: 0.25rem;
   }
   .about-right .about-me-heading {
     margin-top: 0;
@@ -84,7 +79,6 @@ layout: default
           {% endif %}
         </h1>
         <p class="about-subtitle">{{ page.subtitle }}</p>
-        <div class="about-chess-accent"></div>
 
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -129,6 +123,13 @@ layout: default
         <a href="{{ '/research/' | relative_url }}" style="color: inherit">selected working papers</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social (full width, bottom of page) -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

@@ -10,13 +10,13 @@ profile:
   image_circular: false # crops the image to make it circular
 
 tagline: >
-  A data analyst and applied scholar specializing in applied econometrics, causal inference, and survey analysis — with a research focus on health economics and social policy, and open to quantitative marketing and behavioral science roles.
+  Two questions drive my research: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities in outcomes.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -26,10 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an applied economist (M.A., NYU 2026) working at the intersection of health economics, economic demography, and social policy. Two questions drive my research: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities in outcomes.
+I am an applied economist (M.A., NYU 2026) with two research interests. The first is in **consumer behavior and decision-making**: how people choose under constraints and information frictions, and how the choice environments that platforms and institutions design shape what they do. This interest is rooted in **behavioral economics** and connects directly to **quantitative marketing**. The second is in **population and health policy**: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities.
 
-I use quantitative methods to study whether public programs actually work — as Nobel laureate Alvin Roth put it, "who gets what, and why." My work draws on large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying causal inference, survey methodology, and machine learning. I've also studied behavioral economics and nudge theory in a policy context, which is part of what draws me to quantitative marketing and behavioral science roles alongside traditional research and policy work. I am proficient in R and Stata, with working knowledge of Python and SQL.
+Having lived with a speech impediment since early childhood and navigated speech therapy through Taiwan's universal healthcare system, I am committed to understanding how those barriers operate and how policy can reduce them. I work primarily with large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying **causal inference**, **survey methodology**, and **machine learning**. I am proficient in R and Stata, with working knowledge of Python and SQL.
 
-I am currently open to research, think tank, survey research, data analyst, and quantitative marketing opportunities. Feel free to reach out.
+I am currently open to research, think tank, survey research, data analyst, and **quantitative marketing** opportunities. Feel free to reach out.
 
 You can find my work under [Research](/research/) and my full background under [CV](/cv/) — or, for a few things about me beyond the data, see [Personal](/personal/).
