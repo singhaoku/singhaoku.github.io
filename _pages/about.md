@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.A. in Economics, New York University · New York, NY
+subtitle: M.A. in Economics
+institution: New York University
 
 profile:
   align: right
@@ -10,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
 
 tagline: >
-  Two questions drive my research: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities in outcomes.
+  Applied economist exploring how institutions and choice environments shape financial security and consumer behavior.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

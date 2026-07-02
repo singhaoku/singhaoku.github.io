@@ -5,9 +5,16 @@ title: personal
 description: A few things about me beyond the research
 nav: true
 nav_order: 3
+tabs: true
 ---
 
-I grew up in Taiwan with a speech impediment, navigating a healthcare system that shaped how I think about access and inequality. That experience sent me to New York for graduate school, and somewhere along the way I also fell in love with Broadway — 19 shows and counting:
+I grew up in Taiwan with a speech impediment, navigating a healthcare system that shaped how I think about access and inequality. That experience sent me to New York for graduate school, and somewhere along the way I also fell in love with a few other things.
+
+{% tabs personal %}
+
+{% tab personal broadway %}
+
+**19 shows and counting:**
 
 <div class="row">
   <div class="col-sm-6">
@@ -48,7 +55,26 @@ I grew up in Taiwan with a speech impediment, navigating a healthcare system tha
   A stack of Playbills from a few of the shows above.
 </div>
 
-Before any of that, I was a competitive swimmer for 10+ years: a national collegiate record holder and high-school athletic scholarship recipient in Taiwan.
+{% endtab %}
+
+{% tab personal sports %}
+
+Real Madrid (Hala Madrid!) has my heart, with Luka Modrić as my favorite player — which extends my loyalty to Croatia as well. I follow tennis and baseball too.
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/personal/jerseys.jpg" title="Jerseys" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Croatia and Real Madrid, side by side.
+</div>
+
+{% endtab %}
+
+{% tab personal swimming %}
+
+Before any of that, I was a competitive swimmer for 10+ years, specializing in the 100m and 200m butterfly: a national collegiate record holder and high-school athletic scholarship recipient in Taiwan.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -62,21 +88,18 @@ Before any of that, I was a competitive swimmer for 10+ years: a national colleg
   Racing, and the medal count from one meet.
 </div>
 
-These days I get my competitive fix watching Real Madrid (Hala Madrid!), tennis, and baseball instead — Croatia gets some loyalty too.
+{% endtab %}
 
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/personal/jerseys.jpg" title="Jerseys" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Croatia and Real Madrid, side by side.
-</div>
+{% tab personal stories %}
 
-I also love stories — novels, films, whatever's good. I think the best ones reveal something true about the beauty of humanity, fictional or not; the most touching are the experiences people can relate to. What draws me to data is the same thing: where sense meets sensibility in the real world's conundrums is where I find the most interesting questions.
+I love stories — novels, films, whatever's good. I think the best ones reveal something true about the beauty of humanity, fictional or not; the most touching are the experiences people can relate to. What draws me to data is the same thing: where sense meets sensibility in the real world's conundrums is where I find the most interesting questions.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/personal/lifestyle.jpg" title="Off the clock" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+{% endtab %}
+
+{% endtabs %}

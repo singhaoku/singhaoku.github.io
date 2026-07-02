@@ -1,8 +1,9 @@
 /*******************************************************************************
  * Themes
  * Local override of al_folio_core's _themes.scss: swaps the light-theme
- * accent from purple to blue ($blue-color). Everything else is unchanged
- * from the upstream gem file so future gem updates only diverge on this.
+ * accent from purple to crimson red ($red-color-dark). Everything else is
+ * unchanged from the upstream gem file so future gem updates only diverge
+ * on this.
  ******************************************************************************/
 @use "variables" as v;
 @use "sass:color";
@@ -13,8 +14,8 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$blue-color};
-  --global-hover-color: #{v.$blue-color};
+  --global-theme-color: #{v.$red-color-dark};
+  --global-hover-color: #{v.$red-color-dark};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};

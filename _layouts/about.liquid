@@ -28,6 +28,15 @@ layout: default
   .about-subtitle {
     color: var(--global-text-color-light);
     font-size: 0.95rem;
+    margin-bottom: 0.1rem;
+  }
+  .about-institution {
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+  }
+  .about-email {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
     margin-bottom: 1rem;
   }
   .about-left .social {
@@ -54,6 +63,10 @@ layout: default
     padding-left: 1rem;
     margin-bottom: 1.5rem;
   }
+  .about-bio strong {
+    font-weight: 800;
+    color: var(--global-theme-color);
+  }
 </style>
 
 <div class="post">
@@ -79,6 +92,12 @@ layout: default
           {% endif %}
         </h1>
         <p class="about-subtitle">{{ page.subtitle }}</p>
+        {% if page.institution %}
+          <p class="about-subtitle about-institution">{{ page.institution }}</p>
+        {% endif %}
+        {% if site.data.socials.email %}
+          <p class="about-email">{{ site.data.socials.email }}</p>
+        {% endif %}
 
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
