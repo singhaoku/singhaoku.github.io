@@ -5,7 +5,7 @@ cv_pdf: /assets/pdf/Ku_CV_web.pdf # path to your CV PDF file
 email: sk11234@nyu.edu # your email address
 linkedin_username: sing-hao-ku # your LinkedIn username
 github_username: singhaoku # your GitHub username
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # comment this line to hide the RSS icon (re-enable once there are blog posts)
 # scholar_userid: # your Google Scholar ID (add once you have a public profile)
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
