@@ -104,6 +104,9 @@ I love stories — novels, films, whatever's good. I think the best ones reveal 
 <div class="personal-gallery">
   {% include figure.liquid loading="eager" path="assets/img/personal/lifestyle.jpg" title="Off the clock" class="rounded z-depth-1" %}
 </div>
+<div class="caption">
+  Where sense meets sensibility in my life.
+</div>
 
 {% endtab %}
 

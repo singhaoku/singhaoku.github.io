@@ -30,7 +30,7 @@ cv:
         score: "GPA 3.81/4.00"
         courses: "Concentration: Econometrics and Quantitative Economics"
         highlights:
-          - "Relevant coursework: Applied Statistics and Econometrics, Machine Learning for Economics, Irrationality and Behavioral Economics, Empirical Research Methods, Messy Data and Machine Learning"
+          - "Relevant coursework: Applied Statistics and Econometrics, Machine Learning in Economics, Rationality and Behavioral Economics, Empirical Research Methods, Messy Data and Machine Learning"
 
       - institution: National Taiwan University (NTU)
         location: Taipei, Taiwan
@@ -74,9 +74,9 @@ cv:
     Working Papers:
       - bullet: '**Coverage Substitution After Job Loss: How the ACA Altered Post-Displacement Insurance Trajectories** — *M.A. Thesis, New York University (Advisor: Prof. Gustavo Pereira) — Highest Distinction in Cohort*, 2026. Did the ACA soften the post-displacement coverage shock that follows from the U.S. employer-tied insurance system? Using MEPS 2004-2018 and a matched event-study design, I find the ACA absorbs roughly one-quarter of the two-month post-displacement coverage loss, concentrated in the income bands its thresholds were designed to reach — but among workers who take up premium-paying coverage, the high-burden share (over 10% of household income) roughly doubles between eras. A latent-class analysis shows coverage gains concentrate in a high-coverage Finance and Professional class, while three precarious-work classes see no gains. [Full paper](/assets/pdf/Ku_Coverage_Substitution_ACA.pdf)'
 
-      - bullet: '**Medicaid Expansion and Out-of-Pocket Costs: Causal Evidence from Double Machine Learning** — *Term paper, "Machine Learning for Economics," New York University*, 2025. Uses a Double/Debiased Machine Learning instrumental-variables estimator (Random Forest, LASSO, XGBoost) to estimate the causal effect of ACA Medicaid expansion on medical out-of-pocket spending (CPS ASEC, 2011-2017, ~786,000 observations). Two of three learners point to meaningful cost savings and none find a significant increase: Random Forest estimates gaining insurance reduces annual out-of-pocket spending by roughly \$3,650 for mid-FPL adults and \$1,250 for low-FPL adults. [Full paper](/assets/pdf/Ku_Medicaid_DML.pdf)'
+      - bullet: '**Medicaid Expansion and Out-of-Pocket Costs: Causal Evidence from Double Machine Learning** — *Term paper, "Machine Learning in Economics," New York University*, 2025. Uses a Double/Debiased Machine Learning instrumental-variables estimator (Random Forest, LASSO, XGBoost) to estimate the causal effect of ACA Medicaid expansion on medical out-of-pocket spending (CPS ASEC, 2011-2017, ~786,000 observations). Two of three learners point to meaningful cost savings and none find a significant increase: Random Forest estimates gaining insurance reduces annual out-of-pocket spending by roughly \$3,650 for mid-FPL adults and \$1,250 for low-FPL adults. [Full paper](/assets/pdf/Ku_Medicaid_DML.pdf)'
 
-      - bullet: '**Nudging in Public Policy: A Review of Empirical Studies** — *Term paper, "Irrationality and Behavioral Economics," New York University*, 2025. Reviews libertarian paternalism and nudge theory, then evaluates List et al. (2023) on nudges vs. taxes/subsidies and Handel (2011) on adverse selection and switching costs in health insurance, concluding with "nudge plus," "budge," and "boost" as extensions to the classic nudge framework. [Full paper](/assets/pdf/Ku_Nudging_Review.pdf)'
+      - bullet: '**Nudging in Public Policy: A Review of Empirical Studies** — *Term paper, "Rationality and Behavioral Economics," New York University*, 2025. Reviews libertarian paternalism and nudge theory, then evaluates List et al. (2023) on nudges vs. taxes/subsidies and Handel (2011) on adverse selection and switching costs in health insurance, concluding with "nudge plus," "budge," and "boost" as extensions to the classic nudge framework. [Full paper](/assets/pdf/Ku_Nudging_Review.pdf)'
 
     Skills:
       - name: R
