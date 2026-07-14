@@ -5,6 +5,7 @@ permalink: /projects/
 description: Selected academic research projects
 nav: false
 nav_order: 3
+sitemap: false
 display_categories: [research]
 horizontal: false
 ---
