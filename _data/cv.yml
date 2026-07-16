@@ -124,6 +124,11 @@ cv:
         icon: fa-solid fa-toolbox
         keywords: "Tableau (Visualization), Qualtrics (Survey Design), LaTeX (Formatting)"
 
+      - name: Public Datasets
+        level: Working Knowledge
+        icon: fa-solid fa-table
+        keywords: "NLSY, MEPS, NSFG, IPUMS (CPS, ATUS)"
+
     Languages:
       - name: English
         summary: "Full Professional Proficiency"
@@ -134,12 +139,4 @@ cv:
     Interests:
       - name: Research Interests
         icon: fa-solid fa-magnifying-glass
-        keywords: "Health Economics, Population Studies, Applied Econometrics, Causal Inference, Survey Methodology, Labor and Social Policy"
-
-      - name: Also Open To
-        icon: fa-solid fa-chart-line
-        keywords: "Quantitative Marketing, Behavioral Science"
-
-      - name: Public Datasets
-        icon: fa-solid fa-table
-        keywords: "NLSY, MEPS, NSFG, IPUMS (CPS, ATUS)"
+        keywords: "Health Economics, Population Studies, Applied Econometrics, Causal Inference, Survey Methodology, Labor and Social Policy, Quantitative Marketing, Behavioral Science"
