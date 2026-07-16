@@ -137,6 +137,14 @@ cv:
         summary: "Native"
 
     Interests:
-      - name: Research Interests
+      - name: Health & Social Policy
         icon: fa-solid fa-magnifying-glass
-        keywords: "Health Economics, Population Studies, Applied Econometrics, Causal Inference, Survey Methodology, Labor and Social Policy, Quantitative Marketing, Behavioral Science"
+        keywords: "Health Economics, Population Studies, Labor and Social Policy"
+
+      - name: Applied Methods
+        icon: fa-solid fa-chart-line
+        keywords: "Applied Econometrics, Causal Inference, Survey Methodology"
+
+      - name: Behavioral & Marketing
+        icon: fa-solid fa-brain
+        keywords: "Quantitative Marketing, Behavioral Science"
