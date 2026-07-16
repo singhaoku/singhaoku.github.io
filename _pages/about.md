@@ -16,7 +16,7 @@ tagline: >
 callout:
   title: Open to opportunities
   text: >
-    Currently looking for research, think tank, survey research, data analyst, and quantitative marketing roles — and considering a PhD in quantitative marketing, population studies, or behavioral science. <a href="mailto:sk11234@nyu.edu">Get in touch</a>.
+    Pursuing a PhD in quantitative marketing, population studies, or behavioral science is my long-term goal — I'm also open to research, think tank, survey research, data analyst, and quantitative marketing roles along the way. <a href="mailto:sk11234@nyu.edu">Get in touch</a>.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -36,6 +36,6 @@ I am an applied economist (M.A., NYU 2026) with two research interests. The firs
 
 Having lived with a speech impediment since early childhood and navigated speech therapy through Taiwan's universal healthcare system, I am committed to understanding how those barriers operate and how policy can reduce them. I work primarily with large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying **causal inference**, **survey methodology**, and **machine learning**. I am proficient in R and Stata, with working knowledge of Python and SQL.
 
-I am still deciding which path — a **PhD** or industry roles — fits best, and I am equally drawn to a period of intensive applied research in either direction to help me decide.
+Pursuing a **PhD** is my long-term goal, and I am also open to applied research and data roles along the way.
 
 You can find my work under [Research](/research/) and my full background under [CV](/cv/) — or, for a few things about me beyond the data, see [Personal](/personal/).
