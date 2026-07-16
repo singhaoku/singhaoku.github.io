@@ -78,6 +78,31 @@ cv:
 
       - bullet: '**Nudging in Public Policy: A Review of Empirical Studies** <br> *Term paper, "Rationality and Behavioral Economics," New York University*, 2025. <br> Reviews libertarian paternalism and nudge theory, then evaluates List et al. (2023) on nudges vs. taxes/subsidies and Handel (2011) on adverse selection and switching costs in health insurance, concluding with "nudge plus," "budge," and "boost" as extensions to the classic nudge framework. [Full paper](/assets/pdf/Ku_Nudging_Review.pdf)'
 
+    Projects:
+      - name: Determinants of Household Debt Across OECD Economies
+        summary: 'Group project ("Messy Data and Machine Learning," Technical Lead).'
+        start_date: 2025-09
+        end_date: 2025-12
+        highlights:
+          - 'Applied Random Forest, LASSO, and multinomial logistic regression on 378 country-year observations across 18 OECD economies (2000-2020).'
+          - 'Random Forest outperformed multinomial logistic regression (90.5% vs. 76.9% accuracy), identifying credit market accessibility and income inequality as dominant predictors of household debt levels.'
+
+      - name: Assessing the Financial and Coverage Effects of Medicaid Expansion
+        summary: 'Group project ("Applied Statistics and Econometrics," with Pengzhen Wang and Wenqing Zhang, Technical Lead).'
+        start_date: 2025-02
+        end_date: 2025-05
+        highlights:
+          - 'Estimated survey-weighted difference-in-differences and event-study models on CPS ASEC microdata.'
+          - 'Combined seemingly unrelated regression (SUR) models to test joint significance across coverage, financial protection, and health outcomes.'
+
+      - name: Author Disambiguation in Historical Academic Literature Using Large Language Models
+        summary: 'Term project ("Empirical Research Methods," Advisor: Prof. Sahar Parsa).'
+        start_date: 2025-09
+        end_date: 2025-12
+        highlights:
+          - 'Cleaned and standardized large-scale bibliometric records on the eugenics movement (1880-1945), refining a domain-specific lexicon to structure inconsistent historical source data - work that surfaced a significant author name disambiguation problem in the records.'
+          - 'Built an LLM-based approach treating disambiguation as a reading-comprehension task rather than pairwise similarity computation, achieving 97.0% overall accuracy (99.0% on non-patent publications) using only 2 in-context examples, at roughly USD 0.016 per author.'
+
     Skills:
       - name: R
         level: Proficient
