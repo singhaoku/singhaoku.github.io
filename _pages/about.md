@@ -16,7 +16,7 @@ tagline: >
 callout:
   title: Open to opportunities
   text: >
-    Currently looking for research, think tank, survey research, data analyst, and quantitative marketing roles. <a href="mailto:sk11234@nyu.edu">Get in touch</a>.
+    Currently looking for research, think tank, survey research, data analyst, and quantitative marketing roles — and considering a PhD in quantitative marketing, population studies, or behavioral science. <a href="mailto:sk11234@nyu.edu">Get in touch</a>.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -35,5 +35,7 @@ latest_posts:
 I am an applied economist (M.A., NYU 2026) with two research interests. The first is in **consumer behavior and decision-making**: how people choose under constraints and information frictions, and how the choice environments that platforms and institutions design shape what they do. This interest is rooted in **behavioral economics** and connects directly to **quantitative marketing**. The second is in **population and health policy**: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities.
 
 Having lived with a speech impediment since early childhood and navigated speech therapy through Taiwan's universal healthcare system, I am committed to understanding how those barriers operate and how policy can reduce them. I work primarily with large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying **causal inference**, **survey methodology**, and **machine learning**. I am proficient in R and Stata, with working knowledge of Python and SQL.
+
+I am still deciding which path — a **PhD** or industry roles — fits best, and I am equally drawn to a period of intensive applied research in either direction to help me decide.
 
 You can find my work under [Research](/research/) and my full background under [CV](/cv/) — or, for a few things about me beyond the data, see [Personal](/personal/).
