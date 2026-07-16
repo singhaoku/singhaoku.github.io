@@ -85,7 +85,7 @@ cv:
         end_date: 2025-12
         highlights:
           - 'Applied Random Forest, LASSO, and multinomial logistic regression on 378 country-year observations across 18 OECD economies (2000-2020).'
-          - 'Random Forest outperformed multinomial logistic regression (90.5% vs. 76.9% accuracy), identifying credit market accessibility and income inequality as dominant predictors of household debt levels.'
+          - 'Random Forest achieved 91.3% mean cross-validated accuracy (vs. 82.3% for LASSO and 76.9% for multinomial logistic regression); credit market liberalization emerged as the single strongest predictor of household debt category, with 65% greater importance than welfare generosity.'
 
       - name: Assessing the Financial and Coverage Effects of Medicaid Expansion
         summary: 'Group project ("Applied Statistics and Econometrics," with Pengzhen Wang and Wenqing Zhang, Technical Lead).'
