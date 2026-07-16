@@ -139,4 +139,8 @@ cv:
     Interests:
       - name: Research Interests
         icon: fa-solid fa-magnifying-glass
-        keywords: "Health Economics, Population Studies, Applied Econometrics, Causal Inference, Survey Methodology, Labor and Social Policy <br> Quantitative Marketing, Behavioral Science"
+        keywords: "Health Economics, Population Studies, Applied Econometrics, Causal Inference, Survey Methodology, Labor and Social Policy"
+
+      - name: Also Open To
+        icon: fa-solid fa-chart-line
+        keywords: "Quantitative Marketing, Behavioral Science"
