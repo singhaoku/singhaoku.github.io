@@ -29,7 +29,7 @@ Off the clock, this is where you'll find me — Broadway seats, swim lanes, and 
 
 {% tab personal broadway %}
 
-**19 shows and counting:**
+**20 shows and counting:**
 
 <div class="row">
   <div class="col-sm-6">
@@ -57,6 +57,7 @@ Off the clock, this is where you'll find me — Broadway seats, swim lanes, and 
       <li>Back to the Future</li>
       <li>The Outsiders</li>
       <li>Maybe Happy Ending</li>
+      <li>Hadestown</li>
     </ul>
   </div>
 </div>
