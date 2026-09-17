@@ -23,13 +23,13 @@ tabs: true
   }
 </style>
 
-Off the clock, this is where you'll find me — Broadway seats, swim lanes, and the Bernabéu.
+Off the clock, this is where you'll find me — chasing Broadway lottery tickets, swimming laps (rustier than I'd like to admit), and living and dying with every Real Madrid match.
 
 {% tabs personal %}
 
 {% tab personal broadway %}
 
-**20 shows and counting:**
+**20 shows and counting:** I always cherish the chance to catch a show live and relish the performance in the theater. I get most of my tickets through the digital lottery — ask me if you want tips.
 
 <div class="row">
   <div class="col-sm-6">
@@ -73,7 +73,7 @@ Off the clock, this is where you'll find me — Broadway seats, swim lanes, and 
 
 {% tab personal sports %}
 
-Real Madrid (Hala Madrid!) has my heart, with Luka Modrić as my favorite player — which extends my loyalty to Croatia as well. I follow tennis and baseball too.
+Real Madrid (Hala Madrid!) has my heart, with Luka Modrić as my favorite player — which extends my loyalty to Croatia as well. In tennis, I root for the retired-but-still-the-GOAT Rafa Nadal and the new superstar Carlos Alcaraz. In baseball, I'm a Dodgers fan.
 
 <div class="personal-gallery">
   {% include figure.liquid loading="eager" path="assets/img/personal/jerseys.jpg" title="Jerseys" class="rounded z-depth-1" %}
@@ -86,7 +86,7 @@ Real Madrid (Hala Madrid!) has my heart, with Luka Modrić as my favorite player
 
 {% tab personal swimming %}
 
-Before any of that, I was a competitive swimmer for 10+ years, specializing in the 100m and 200m butterfly: a national collegiate record holder and high-school athletic scholarship recipient in Taiwan.
+Before any of that, I was a competitive swimmer for 10+ years, specializing in the 100m and 200m butterfly: a national collegiate record holder and high-school athletic scholarship recipient in Taiwan. I'm officially retired now, and honestly struggling to get back into a sporting routine — these days I can't even finish a 25-yard butterfly.
 
 <div class="personal-gallery">
   {% include figure.liquid loading="eager" path="assets/img/personal/swimming-race.jpg" title="Mid-race" class="rounded z-depth-1" %}
