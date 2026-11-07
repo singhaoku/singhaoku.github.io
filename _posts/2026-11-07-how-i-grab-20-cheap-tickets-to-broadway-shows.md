@@ -10,17 +10,11 @@ related_posts: false
 
 I have seen 20+ Broadway shows, and I got most of the tickets cheaply through lotteries, rush, and quick-sell discounts. Here is where I look; I will add more detail later.
 
-## Lotteries
-
-- **Telecharge**: [telecharge.com](https://www.telecharge.com/)
-- **Lucky Seat**: [luckyseat.com](https://www.luckyseat.com/)
-- **Broadway Direct**: [broadwaydirect.com](https://broadwaydirect.com/)
+- **Telecharge** (lottery): [telecharge.com](https://www.telecharge.com/)
+- **Lucky Seat** (lottery): [luckyseat.com](https://www.luckyseat.com/)
+- **Broadway Direct** (lottery): [broadwaydirect.com](https://broadwaydirect.com/)
 - **TodayTix** (rush and lottery): [todaytix.com](https://www.todaytix.com/)
-- **Hamilton app**: the in-app lottery for Hamilton
-
-## Discounted tickets
-
-- **Theatre app**: quick-sell discounted tickets. Turn on notifications so you can buy tickets ahead of others.
-- **TodayTix**: rush tickets, listed above with its lottery
+- **Hamilton app** (lottery): the in-app lottery for Hamilton
+- **Theatre app** (quick-sell discount): turn on notifications so you can buy tickets ahead of others
 
 *More detail coming soon.*
