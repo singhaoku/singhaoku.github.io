@@ -32,7 +32,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an applied economist (M.A., NYU 2026) researching **health economics**, **economic demography**, and **social policy**: how public programs shape financial security for vulnerable populations, and how institutional barriers translate into disparities.
+I am an applied economist (M.A., NYU 2026) researching **health economics**, **economic demography**, and **social policy**. I study how government health programs, especially public health insurance, protect people when they are involuntarily caught in a major shock like job loss, and how socioeconomic and institutional barriers leave some of them worse off. My specific question is how well welfare design protects people when a health shock strikes, at the moment their need for help rises but their capacity to claim it falls: does support reach those who need it most, and who makes up the loss, the state, the market, or the household? My master's thesis asked a version of this after job loss, and found that the ACA's coverage gains concentrated among higher-coverage professional workers rather than precarious ones.
 
 Having lived with a speech impediment since early childhood and navigated speech therapy through Taiwan's universal healthcare system, I am committed to understanding how those barriers operate and how policy can reduce them. I work primarily with large federal survey datasets (MEPS, NLSY79, CPS ASEC, IPUMS), applying **causal inference**, **survey methodology**, and **machine learning**. I am proficient in R and Stata, with working knowledge of Python and SQL.
 
