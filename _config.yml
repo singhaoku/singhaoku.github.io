@@ -7,13 +7,13 @@ first_name: Sing-Hao
 middle_name:
 last_name: Ku
 contact_note: >
-  Email is the best way to reach me — I'm happy to talk research, data, or opportunities in consumer behavior, quantitative marketing, health economics, or social policy.
+  Email is the best way to reach me — I'm happy to talk research, data, or opportunities in health economics, economic demography, or social policy.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Applied economist and data analyst working on health economics, causal inference, survey methodology, and social policy — also open to quantitative marketing and behavioral science.
+  Applied economist and data analyst working on health economics, causal inference, survey methodology, and social policy.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: health economics, applied econometrics, causal inference, survey methodology, behavioral science, quantitative marketing, social policy, academic website # add your own keywords or leave empty
+keywords: health economics, applied econometrics, causal inference, survey methodology, economic demography, public policy, social policy, academic website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
